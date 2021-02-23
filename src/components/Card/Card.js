@@ -1,5 +1,4 @@
 import React from 'react';
-import { listData } from '../../data/dataStore.js';
 import styles from './Card.scss';
 import PropTypes from 'prop-types';
 
@@ -14,7 +13,7 @@ class Card extends React.Component {
             <section className={styles.component}>
                 <h3>{this.props.title}</h3>
             </section>
-        )
+        );
     }
 }
 
