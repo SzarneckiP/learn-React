@@ -8,6 +8,14 @@
         "build": "webpack --mode production",
         "lint": "eslint src/"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "src/**/*.js": "eslint"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
@@ -38,13 +46,5 @@
         "webpack-cli": "^3.2.1",
         "webpack-dev-server": "^3.1.14",
         "webpack-merge": "^4.2.1"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "src/**/*.js": "eslint"
     }
 }
