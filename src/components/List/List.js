@@ -9,7 +9,7 @@ import Creator from '../Creator/Creator.js';
 
 class List extends React.Component {
     state = {
-        columns: this.props.columns || []
+        columns: this.props.columns || [],
     }
 
     static propTypes = {
