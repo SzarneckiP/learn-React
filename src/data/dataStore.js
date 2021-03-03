@@ -92,6 +92,18 @@ const lists = [
         description: 'Interesting things I want to check out!',
         image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
     },
+    {
+        id: 'list-2',
+        title: 'To do in my Car',
+        description: 'What Can I do with my CAR',
+        image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    },
+    {
+        id: 'list-3',
+        title: 'FAQ',
+        description: 'Frequently Asked Questions',
+        image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    },
 ];
 
 const columns = [
